@@ -1,0 +1,216 @@
+/* responsive.css for all screen sizes */
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .right-container {
+    grid-template-columns: 1fr;
+  }
+
+  .rightherosecs {
+    grid-template-columns: 1fr;
+  }
+
+  .pot-items {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .listii {
+    grid-template-columns: 1fr;
+  }
+
+  .header-right,
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .heroimgs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .heroSection img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .heroimgs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .heroimgs img {
+    width: 48%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .icon-container {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .form-control {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .profile-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .prodata .name {
+    font-size: 16px;
+  }
+
+  .prodata .sname {
+    font-size: 13px;
+  }
+
+  .docdown p {
+    font-size: 13px;
+  }
+
+  .propertypic img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    font-size: 18px;
+  }
+
+  .header-right {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .navbtn,
+  button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .pot-items {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group {
+    max-width: 100%;
+  }
+
+  .form-label {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  header,
+  .header-right,
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .container {
+    display: block;
+    padding: 10px;
+  }
+
+  .right-container,
+  .left,
+  .right,
+  .rightherosecs {
+    display: block;
+    width: 100%;
+  }
+
+  .heroimgs {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .heroimgs img {
+    width: 48%;
+    height: auto;
+  }
+
+  .pot-items {
+    grid-template-columns: 1fr;
+  }
+
+  .listii {
+    grid-template-columns: 1fr;
+  }
+
+  .icon-container {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .icon {
+    font-size: 24px;
+  }
+
+  .profile-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .form-group {
+    max-width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 15px 10px;
+    text-align: center;
+  }
+}
